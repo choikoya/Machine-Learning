@@ -23,7 +23,7 @@ cdict = {'red': [(0.0, 0.0, cm2(0)[0]),
 
 ReBl = LinearSegmentedColormap("ReBl", cdict)
 
-
+#pj할때 가져가서 하기
 def discrete_scatter(x1, x2, y=None, markers=None, s=10, ax=None,
                      labels=None, padding=.2, alpha=1, c=None, markeredgewidth=None):
     """Adaption of matplotlib.pyplot.scatter to plot classes or clusters.
